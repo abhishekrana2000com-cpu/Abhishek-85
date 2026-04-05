@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,13 +9,22 @@
 
 <h1>💄 Glam Girl Makeup Game</h1>
 
-<div class="game">
-  <img id="face" src="https://i.imgur.com/1X6h7Qp.png" alt="face">
+<div class="game-container">
+  <div class="face-area">
+    <img id="face" src="https://i.imgur.com/1X6h7Qp.png">
+  </div>
 
-  <div class="controls">
-    <button onclick="applyLipstick('red')">Red Lipstick</button>
-    <button onclick="applyLipstick('pink')">Pink Lipstick</button>
-    <button onclick="applyBlush()">Blush</button>
-    <button onclick="resetMakeup()">Reset</button>
+  <div class="tools">
+    <h2>Makeup Tools</h2>
+    <button onclick="lipstick('red')">💋 Red Lipstick</button>
+    <button onclick="lipstick('pink')">💋 Pink Lipstick</button>
+    <button onclick="lipstick('purple')">💋 Purple Lipstick</button>
+    <button onclick="blush()">😊 Blush</button>
+    <button onclick="glow()">✨ Glow</button>
+    <button onclick="reset()">🔄 Reset</button>
   </div>
 </div>
+
+<script src="script.js"></script>
+</body>
+</html>
