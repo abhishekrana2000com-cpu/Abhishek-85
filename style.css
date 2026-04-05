@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background: linear-gradient(to right, pink, lavender);
+}
+
+h1 {
+  color: #fff;
+}
+
+.game {
+  margin-top: 20px;
+}
+
+img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: purple;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: hotpink;
+}
